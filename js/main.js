@@ -40,7 +40,7 @@
 	var map = new google.maps.Map(
 		mapElement, 
 		{
-			zoom: 18, 
+			zoom: 17, 
 			center: center
 		}
 	);

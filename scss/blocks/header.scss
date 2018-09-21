@@ -1,9 +1,11 @@
 .header {
+	// цьомчикзайчику
+	height: 100vh;
 	background-image: url(../../img/header_bg.png);
 	background-size: cover;
 
 	&__logo {
-		width: 113px;
+		width: 30%;
 		height: 20px;
 		font-family: "Myriad Pro", Arial, sans-serif;
 		font-size: 16px;
@@ -21,28 +23,31 @@
 
 	&__nav {
 		display: flex;
+		justify-content: flex-end;
 		box-sizing: border-box;
+		width: 70%;
 		font-size: 16px;
 		font-weight: 400;
-		color: rgb(255, 255, 255);
+		color: #ffffff;
   		line-height: 0.75;
-  		text-transform: uppercase;
-	}
 
-	&__nav__item {
-		position: relative;
-		margin-right: 30px;
-		line-height: 2;
-	}
-
-	&__nav__item:hover {
-		border: 1px solid #ffffff;
-		border-radius: 40%;
-	}
-
-	&__nav__item:last-child {
-		margin-right: 0;
-}
+  		&__item {
+			position: relative;
+			line-height: 1;
+			&-link {
+				padding: 5px 20px;
+				border: 1px solid transparent;
+				transition: all .3s ease;
+				border-radius: 16px;
+					&:hover {
+						border: 1px solid white;
+					}
+					&--active {
+						border: 1px solid white;
+					}
+				}
+			}
+		}
 
 	&__tittle {
 		width: 380px;
@@ -82,3 +87,4 @@
 		background-image: url(../../img/scroll.png);
 	}
 }
+

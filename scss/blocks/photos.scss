@@ -1,4 +1,5 @@
 .photos {
+	margin-top: 70px;
 
 	&:after {
   		content: '';
@@ -10,5 +11,12 @@
 		float: left;
 		width: 270px;
 		margin-bottom: 10px;
+		transform: scale(1);
+		transition: all .3s ease;
+		&:hover {
+			position: absolute;
+			z-index: 10;
+			transform: scale(1.2);
+		}
 	}
 }
