@@ -1,0 +1,84 @@
+.header {
+	background-image: url(../../img/header_bg.png);
+	background-size: cover;
+
+	&__logo {
+		width: 113px;
+		height: 20px;
+		font-family: "Myriad Pro", Arial, sans-serif;
+		font-size: 16px;
+		font-weight: 900;
+  		color: #ffffff;
+  		text-transform: uppercase; 
+	}
+
+	&__flex {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		padding-top: 39px;
+	}
+
+	&__nav {
+		display: flex;
+		box-sizing: border-box;
+		font-size: 16px;
+		font-weight: 400;
+		color: rgb(255, 255, 255);
+  		line-height: 0.75;
+  		text-transform: uppercase;
+	}
+
+	&__nav__item {
+		position: relative;
+		margin-right: 30px;
+		line-height: 2;
+	}
+
+	&__nav__item:hover {
+		border: 1px solid #ffffff;
+		border-radius: 40%;
+	}
+
+	&__nav__item:last-child {
+		margin-right: 0;
+}
+
+	&__tittle {
+		width: 380px;
+		margin: 0 auto;
+		padding-top: 226px;
+  		font-size: 35px;
+  		font-family: 'Source Sans Pro', sans-serif;
+  		color: rgb(255, 255, 255);
+  		text-transform: uppercase;
+  		letter-spacing: 4px; 
+  		line-height: 2;
+  		font-weight: 300;
+  		text-align: left;
+	}
+
+	&__subtitle {
+		width: 607px;
+		margin: 0 auto;
+		padding-top: 42px;
+		padding-bottom: 337px;
+		font-size: 16px;
+  		color: rgb(255, 255, 255);
+  		line-height: 1.75;
+  		font-weight: 400;
+  		text-align: center
+	}
+
+	&__scroll {
+		display: block;
+		position: absolute;
+		width: 36px;
+		height: 36px;
+		left: 50%;
+		top: 700px;
+		margin-left: -12px;
+		margin-bottom: 69px;
+		background-image: url(../../img/scroll.png);
+	}
+}

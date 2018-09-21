@@ -1,0 +1,46 @@
+.testimonials {
+	background-color: #f3f3f3;
+	padding-bottom: 100px;
+
+	&__slider {
+		padding-top: 65px;
+		background-color: #ffffff;
+
+		&__slide {
+			display: flex;
+			display: -ms-flexbox;
+			padding: 45px 100px;
+		}
+
+		&__photo {
+			margin-right: 75px;
+		}
+
+		&__info {
+			margin-bottom: 70px;
+			max-width: 800px;
+
+			&-about {
+				max-width: inherit;
+				color: #81868e;
+				line-height: 28px;
+			}
+
+			&-name {
+				margin-top: 35px;
+				color: #19bd9a;
+				font-size: 16px;
+				font-weight: 700;
+				line-height: 20px;
+				text-transform: uppercase;
+			}
+
+			&-position {
+				font-size: 14px;
+				font-weight: 400;
+				line-height: 20px;
+				text-transform: uppercase;
+			}
+		}
+	}
+}

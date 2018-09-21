@@ -1,0 +1,10 @@
+.slider {
+  width: 1030px;
+  height: 365px; }
+  .slider__slide {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
+  .slider__photo {
+    height: 365px;
+    width: 283px; }

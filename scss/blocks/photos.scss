@@ -1,0 +1,14 @@
+.photos {
+
+	&:after {
+  		content: '';
+  		display: block;
+  		clear: both;
+	}
+
+	&__card {
+		float: left;
+		width: 270px;
+		margin-bottom: 10px;
+	}
+}

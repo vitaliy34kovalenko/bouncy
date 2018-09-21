@@ -1,0 +1,25 @@
+.subtittle {
+    width: 460px;
+  	margin: 0 auto;
+  	padding-top: 40px;
+    padding-bottom: 70px;
+  	font-size: $font-size;
+  	font-family: $font-family;
+  	color: #81868e;
+  	line-height: 1.786;
+  	text-align: center;
+
+  	&--portfolio {
+  		padding-bottom: 85px;
+  	}
+
+  	&--team {
+  		padding-bottom: 65px;
+  	}
+
+    &--slider {
+        padding-right: 44px;
+        text-align: right;
+    }
+}
+

@@ -1,0 +1,58 @@
+.slider {
+
+	&__dots li button::before {
+		content: '';
+	    height: 10px;
+	    width: 10px;
+	    border: 1px solid #19bd9a;
+	    border-radius: 50%;
+	    opacity: 1;
+	}
+
+	&__dots li.slick-active button::before {
+	    background-color: #19bd9a;
+	}
+
+	&__slide {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	&__photo {
+		width: 285px;
+  		height: 364px;
+	}
+
+	&__info-title {
+		padding-right: 44px;
+		border-right: 4px solid #19bd9a;
+	}
+
+	&__info-name {
+		font-size: 20px;
+  		font-family: $font-family;
+  		color: #464646;
+  		font-weight: 400;
+  		text-align: right;
+	}
+
+	&__info-position {
+		font-family: 'Source Sans Pro', sans-serif;
+		text-transform: uppercase;
+		color: $color-main;
+		font-weight: 300;
+		line-height: 1.786;
+  		text-align: right;
+	}
+}
+
+.slick-initialized .slick-slide {
+    display: flex;
+}
+
+
+
+
+
+
+

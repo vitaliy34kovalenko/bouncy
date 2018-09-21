@@ -1,0 +1,41 @@
+@font-face {
+ font-family: "Myriad Pro", Arial, sans-serif;
+ src: url("../fonts/MyriadPro-Regular.woff2") format("woff2"),
+        url("../fonts/MyriadPro-Regular.woff") format("woff");
+}
+
+body {
+	font-family: $font-family;
+	font-size: $font-size;
+	line-height: $line-height;
+	color: $color-main;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	margin: 0;
+}
+
+p {
+	margin: 0;
+}
+
+img {
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+ul {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+button {
+	outline: none;
+}
+
+ 
